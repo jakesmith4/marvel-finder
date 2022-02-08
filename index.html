@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Marvel Finder</title>
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <!-- css -->
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+
+  <body>
+    <form class="search-form">
+      <h2>Marvel Finder</h2>
+      <input
+        type="text"
+        name="search"
+        placeholder="Search Your Favorate Marvel character"
+        name="search"
+      />
+    </form>
+    <div class="radio-container">
+      <label for="name">Search For Single Character</label>
+      <input type="radio" name="radio" id="name" checked />
+    </div>
+    <div class="radio-container">
+      <label for="startswith">Search For Multiple Characters </label>
+      <input type="radio" name="radio" id="startswith" />
+    </div>
+    <section class="section cocktails">
+      <article class="loading">
+        <img
+          src="./marvel-gif.webp"
+          alt="Marvel Loading Spinner"
+          class="marvel-spinner"
+        />
+      </article>
+      <h2 class="title"></h2>
+      <div class="section-center"></div>
+    </section>
+    <script type="module" src="./app.js"></script>
+  </body>
+</html>
