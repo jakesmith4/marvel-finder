@@ -331,9 +331,12 @@ input::placeholder {
 }
 
 .single-character .btn {
-  display: inline-block;
-  /* margin-top: 2rem; */
   margin-bottom: 2rem;
+  display: none;
+}
+
+.single-character .single-btn {
+  display: inline-block;
 }
 
 /* Character Links */

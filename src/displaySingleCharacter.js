@@ -14,6 +14,7 @@ const displayCharacter = ({ data }) => {
   console.log(links);
   // const img = getElement('.drink-img');
   const section = getElement('.single-character');
+  const btn = getElement('.btn');
   const drinkInfo = getElement('.character-info');
   const characterName = getElement('.character-name');
   const characterDesc = getElement('.character-desc');
@@ -22,6 +23,7 @@ const displayCharacter = ({ data }) => {
   img.src = `${image.path}/detail.jpg`;
   img.alt = name;
   img.className = 'drink-img';
+  btn.classList.add('single-btn');
   section.insertBefore(img, drinkInfo);
   characterName.textContent = name;
   characterDesc.textContent = desc;
