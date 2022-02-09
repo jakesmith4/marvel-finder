@@ -3,8 +3,6 @@ import presentCharacters from './presentCharacters.js';
 
 const form = getElement('.search-form');
 const input = getElement('[name="search"]');
-// const nameRadio = getElement('#name');
-// const startsWithRadio = getElement('#startswith');
 const searchBtn = getElement('.btn-search');
 
 form.addEventListener('keyup', (e) => {

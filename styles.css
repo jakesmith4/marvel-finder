@@ -329,7 +329,6 @@ input::placeholder {
 }
 
 /* Character Links */
-
 .character-links {
   margin-bottom: 1rem;
   display: flex;
@@ -342,4 +341,27 @@ input::placeholder {
 .character-links li a {
   text-transform: capitalize;
   letter-spacing: 1px;
+  font-size: 0.9rem;
+}
+
+/* events-comics */
+h4 {
+  margin-bottom: 0.2rem;
+}
+
+.heading-4 {
+  display: none;
+}
+
+.events-comics {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 0.5rem;
+}
+
+.events-comics li {
+  margin-right: 1rem;
+  margin-bottom: 0.3rem;
+  font-size: 0.8rem;
+  color: var(--clr-grey-5);
 }
