@@ -221,24 +221,13 @@ input::placeholder {
   color: var(--clr-grey-3);
 }
 
-/* Radio Container */
-.radio-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+/* Search Btn */
+.search-btn-container {
+  margin-top: 1rem;
+}
+
+.search-btn-container button {
   margin: 0 auto;
-  width: 300px;
-  margin-top: 0.5rem;
-}
-
-.radio-container label {
-  margin-right: 0.4rem;
-  letter-spacing: 1px;
-}
-
-.radio-container input {
-  flex: 0 0 10px;
-  margin: 0;
 }
 
 /* cocktails */
