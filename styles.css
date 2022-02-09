@@ -300,7 +300,7 @@ input::placeholder {
 }
 
 /* single cocktail */
-.single-drink {
+.single-character {
   width: 85vw;
   max-width: var(--max-width);
   margin: 0 auto;
@@ -315,13 +315,14 @@ input::placeholder {
   border-radius: var(--radius);
 }
 @media screen and (min-width: 992px) {
-  .single-drink {
+  .single-character {
     display: grid;
     grid-template-columns: 1fr 1fr;
     column-gap: 3rem;
+    align-items: center;
   }
 }
-.drink-info {
+.character-info {
   padding-top: 2rem;
 }
 
@@ -329,7 +330,24 @@ input::placeholder {
   margin-right: 1rem;
 }
 
-.single-drink .btn {
+.single-character .btn {
   display: inline-block;
-  margin-top: 2rem;
+  /* margin-top: 2rem; */
+  margin-bottom: 2rem;
+}
+
+/* Character Links */
+
+.character-links {
+  margin-bottom: 1rem;
+  display: flex;
+}
+
+.character-links li {
+  margin-right: 0.5rem;
+}
+
+.character-links li a {
+  text-transform: capitalize;
+  letter-spacing: 1px;
 }

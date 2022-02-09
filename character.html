@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Single Cocktail</title>
+    <title>Single Character</title>
     <!-- font-awesome -->
     <link
       rel="stylesheet"
@@ -13,7 +13,22 @@
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
-    <h1>single drink</h1>
-    <script type="module" src="./singleDrink.js"></script>
+    <section class="loading hide-loading">
+      <img
+        src="./marvel-gif.webp"
+        alt="Marvel Spinner"
+        class="marvel-spinner"
+      />
+    </section>
+    <section class="single-character">
+      <!-- <img src="" class="drink-img" alt="" /> -->
+      <article class="character-info">
+        <h2 class="character-name"></h2>
+        <p class="character-desc"></p>
+        <ul class="character-links"></ul>
+        <a href="index.html" class="btn">All Characters</a>
+      </article>
+    </section>
+    <script type="module" src="./singleCharacter.js"></script>
   </body>
 </html>

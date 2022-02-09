@@ -1,5 +1,6 @@
 import fetchCharacters from './fetchCharacters.js';
 import displayCharacters from './displayCharacters.js';
+import setCharacter from './setCharacter.js';
 
 const showCharacters = async (url) => {
   // Fetch Characters
@@ -8,7 +9,9 @@ const showCharacters = async (url) => {
   // console.log(data);
   // Display Characters
   const section = await displayCharacters(data);
-  console.log(section);
+  if (section) {
+    setCharacter(section);
+  }
 };
 
 export default showCharacters;
